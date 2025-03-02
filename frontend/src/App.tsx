@@ -3,7 +3,7 @@ import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
 import Blog from "./pages/Blog";
 import Blogs from "./pages/Blogs";
-import { Appbar } from "./components/Navbar";
+import { Appbar } from "./components/Appbar";
 
 const App = () => {
   return (

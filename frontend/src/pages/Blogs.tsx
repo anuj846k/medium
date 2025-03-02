@@ -1,6 +1,12 @@
+import { useBlogs } from "../hooks";
 import BlogCard from "./BlogCard";
 
 const Blogs = () => {
+  const { loading, blogs } = useBlogs();
+
+  if (loading) {
+    <div>Loading....</div>;
+  }
   return (
     <div className="flex justify-center ">
       <div className="max-w-xl">
